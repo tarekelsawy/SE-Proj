@@ -1,0 +1,174 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background-image:url("doctor.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family:sans-serif;
+}
+
+
+.container 
+{
+	width:370px;
+	height:650px;
+	padding:10px 30px;
+	background-color:#F3F3F5;
+	position:absolute;
+	top:10%;
+	left:10%;
+	box-sizing: border-box;
+	border-radius:40px;
+}
+.container:hover
+{
+	box-shadow:2px 2px 5px #555;
+}
+
+.container .logo
+{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	position:absolute;
+	top:-40px;
+	left:150px;
+}
+.container .header 
+{
+	margin-top:50px;
+	text-align:center;
+}
+
+.container .header h2
+{
+	padding-bottom:20px;
+} 
+
+.container .main form label
+{
+	font-weight:bold;
+	margin-bottom: 5px
+}
+.container .main form .pre
+{
+	position:relative;
+}
+.container .main form .pre span
+{
+	position:absolute;
+	top:6px;
+	left:-1px;
+	width:5%;
+
+}
+.container .main form input
+{
+	height:22px;
+	width:80%;
+	padding:4px 8px;
+	border:none;
+	border-bottom:1px solid gray;
+	background:transparent;
+	margin-bottom:25px;
+	margin-left:22px;
+}
+.container .main form input[type="radio"]
+{
+	text-align:left;
+}
+
+.container .main form .radio-left input[type="radio"]
+{
+	width:15px;
+	height:15px;
+	padding-top:10px;
+	margin-right:7px;
+	margin-left:15px;
+}
+
+.container .main button
+{
+	width:100%;
+	height:35px;
+	border:none;
+	background-color:#27B5FD;
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	border-radius:20px;
+}
+.container:hover,
+.container button:hover
+{
+	box-shadow:2px 2px 5px #555;
+}
+.container input:hover
+{
+	box-shadow:1px 1px 3px #555;
+}
+/*start container2*/
+.container2
+{
+	margin-top:15px;
+	text-align:center;
+	color:#29B1FB;
+}
+
+/*end container2*/
+
+/**start container3*/
+.container3
+{
+	width:320px;
+	height:100%;
+	position:absolute;
+	top:10%;
+	left:70%;
+	overflow:hidden;
+}
+.container3 div
+{
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.container3 div hr
+{
+	height:2px;
+	width:30%;
+	background-color:#29B1FB;
+	border:none;
+	margin:5px 0px;
+	
+}
+/*.container3 .dis1 .one
+{
+	width:80px;
+	height:150px;
+	float:left;
+}
+.container3 .dis1 .one img
+{
+	width:100%;
+	height:100%;
+}
+.container3 .dis1 .two
+{
+	width:220px;
+	float:left;
+}*/
+/**end container 3*/
+
+
+
+
+
+/*display:flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items:left;*/
